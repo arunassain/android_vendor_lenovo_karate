@@ -21,7 +21,7 @@ ifeq ($(TARGET_DEVICE),karate)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libts_detected_face_hal
-LOCAL_MODULE_OWNER := xiaomi
+LOCAL_MODULE_OWNER := lenovo
 LOCAL_SRC_FILES := proprietary/vendor/lib/libts_detected_face_hal.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
@@ -32,7 +32,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libts_face_beautify_hal
-LOCAL_MODULE_OWNER := xiaomi
+LOCAL_MODULE_OWNER := lenovo
 LOCAL_SRC_FILES := proprietary/vendor/lib/libts_face_beautify_hal.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
@@ -114,7 +114,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
-LOCAL_MODULE_OWNER := xiaomi
+LOCAL_MODULE_OWNER := lenovo
 LOCAL_SRC_FILES := proprietary/vendor/lib64/libloc_api_v02.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -138,7 +138,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libsdm-disp-vndapis
-LOCAL_MODULE_OWNER := xiaomi
+LOCAL_MODULE_OWNER := lenovo
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libsdm-disp-vndapis.so
 LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libsdm-disp-vndapis.so
 LOCAL_MULTILIB := both
@@ -195,7 +195,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := CNEService
-LOCAL_MODULE_OWNER := xiaomi
+LOCAL_MODULE_OWNER := lenovo
 LOCAL_SRC_FILES := proprietary/priv-app/CNEService/CNEService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
